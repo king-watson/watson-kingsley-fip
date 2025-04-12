@@ -1,0 +1,234 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ #header-type {
+    background-color: black;
+ }
+ 
+ #burple-logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-height: 150px;
+    margin-left: 60px;
+  }
+
+  #buy-box {
+  
+    background-color: rgb(99, 0, 165); 
+    padding: 10px;
+    margin-right: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center;
+    text-align: center;
+  }
+  
+  #buy-box:hover {
+    background-color: rgb(153, 0, 255);
+  }
+  
+  #hero-text {
+    margin-left: 60px;
+    margin-top: -60px;
+    margin-bottom: -50px;
+  }
+
+
+  #text-hero {
+    background-color: black;
+  }
+
+ #hero-buy-now1 {
+    color: white;
+    background-color: black;
+    border: 1.5px solid rgb(153, 0, 255);
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Special Gothic Expanded One', sans-serif;
+    font-size: 28px;
+    margin-right: 35px;
+    margin-left: 35px;
+ }
+
+ #hero-buy-now2 {
+    color: white;
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+ }
+ 
+ #hero {
+    background-color: black;
+ }
+
+#new-text {
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 75px;
+}
+
+#new-text1 {
+    text-align: center;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 40px;
+}
+
+#new-product {
+    background-color: black;
+}
+ 
+#white-arrow {
+    max-height: 35px;
+    margin-left: 87px;
+    margin-top: 10px;
+}
+  
+#new-flavour {
+    background-color: black;
+}
+
+#new-flavour-img {
+    max-height: 1250px;
+}
+  
+
+
+
+
+
+
+
+
+ #footer-hero {
+    margin-top: 30px;
+    background-color: navy;
+    padding-top: 35px;
+    padding-bottom: 35px;
+ }
+ 
+ img, embed, object, video, picture {
+    max-width: 100%;
+  }
+ 
+ p, h1, h2, h3, h4, h5 {
+    margin: 0px;
+    padding: 0px;
+ }
+ 
+ a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+ }
+ 
+ input, textarea {
+    display: block;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ section h2 {
+    padding-left: 15px;
+  }
+ 
+ li {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+ }
+ 
+ .nav-toggle-bar {
+    width: 35px;
+    height: 4px;
+    background-color: rgb(99, 0, 165); 
+    display: block;    
+    margin: 3px 0;
+ }
+ 
+ #hamburger {
+    padding-top: 45px;
+    padding-left: 30px;
+ }
+ 
+ #pokemon-collection {
+    background-color: white;
+    padding: 15px;
+    align-items: center;
+ }
+ 
+ #about-me {
+    background-color: white;
+ }
+ 
+ #my-pokemon {
+    background-color: white;
+ }
+ 
+ #footer-logo {
+    padding-left: 20px;
+    padding-top: 5px;
+ }
+ 
+ .snap-logo {
+ max-width: 75px;
+ padding-right: 5px;
+ padding-top: 5px;
+ }
+ 
+ .form-container {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    margin-top: 25px;
+ }
+ 
+ .form-container h2 {
+    margin-bottom: 30px;
+    margin-left: 78px;
+    color: navy;
+ }
+ 
+ .form-grid {
+    display: grid;
+    gap: 10px;
+ }
+ 
+ input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ }
+ 
+ .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+ }
+ 
+ .button-group input {
+    width: 48%; 
+    padding: 10px;
+    cursor: pointer;
+ }
+ 
+ label {
+    color: navy;
+ }
+ 

@@ -1,0 +1,504 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .box {
+     border-radius: 0px;
+     padding: 20px;
+     text-align: center;
+     margin-left: 10px;
+     margin-right: 10px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+  }
+  
+  .grid-con {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-column-gap: 30px;
+    max-width: 767px;
+    margin: 0 auto;
+  }
+  
+  #charizard {
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 15px;
+  }
+  
+  #mewtwo {
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  #wartortle {
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  #gengar {
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  #zamazenta {
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  #tornadus {
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 15px;
+  }
+  
+  .form-container h2 {
+    padding-left: 10px;
+    display: flex;
+  }
+  
+  /* 2. ---Mobile Library Grid Styles--- */
+  
+  /*-- No media queries for mobile --*/
+  
+  .col-span-1 {grid-column: span 1 / span 1;}
+  .col-span-2 {grid-column: span 2 / span 2;}
+  .col-span-3 {grid-column: span 3 / span 3;}
+  .col-span-4 {grid-column: span 4 / span 4;}
+  .col-span-full {grid-column: 1/-1;}
+  
+   
+  .col-start-1	{grid-column-start: 1;}
+  .col-start-2	{grid-column-start: 2;}
+  .col-start-3	{grid-column-start: 3;}
+  .col-start-4	{grid-column-start: 4;}
+  
+  .col-end-2	{grid-column-end: 2;}
+  .col-end-3	{grid-column-end: 3;}
+  .col-end-4	{grid-column-end: 4;}
+  .col-end-5	{grid-column-end: 5;}
+  
+  @media (max-width: 768px) { 
+    .hidden {
+        display: none;
+    }
+  
+    #gengar-hero {
+      display: none;
+    }
+    
+    #second-pokemon {
+      display: none;
+    }
+    
+    #pokeball {
+      max-height: 400px;
+      padding-left: 35px;
+    }
+  
+    .carousel-container {
+      position: relative;
+      width: 574px; 
+      height: 400px;
+      overflow: hidden;
+      margin: auto;
+      margin-bottom: 75px;
+      margin-top: 75px;
+      margin-left: 25px;
+    }
+  
+    .carousel-wrapper {
+      width: 100%;
+      overflow: hidden;
+    }
+    
+    .carousel-track {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .pokemon-img {
+      height: 400px; 
+      object-fit: cover;
+    }
+    
+    .prev-btn, .next-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: grey;
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      font-size: 24px;
+      margin-right: 150px;
+    }
+    
+    .prev-btn { left: 5px; }
+    .next-btn { right: 5px; }
+    
+    .prev-btn:hover, .next-btn:hover {
+      background-color: black;
+    }
+  
+  
+  }
+  
+  /* 3. ---Tablet Library Grid Styles--- */
+  
+  @media screen and (min-width: 768px) {
+    .grid-con {
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+      grid-column-gap: 20px;
+      max-width: 1199px;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  
+    #hero-buy-now {
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      padding: 30px;
+    }
+  
+    #pokemon-logo {
+      padding-top: 10px;
+      padding-left: 10px;
+    }
+  
+    #hamburger {
+      display: none;
+    }
+  
+    #collection, #trade, #contact {
+      text-align: center;
+      margin-top: 60px;
+      margin-bottom: 25px;
+    }
+  
+   #charizard {
+   margin: 0;
+   padding: 0;
+   margin-bottom: 20px;
+  }
+  
+  #mewtwo {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #wartortle {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #gengar {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #zamazenta {
+    margin: 0;
+   padding: 0;
+  }
+  
+  #tornadus {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #pokemon-collection {
+    background-color: white;
+    padding: 15px;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  #footer-logo {
+   padding-top: 15px;
+  }
+  
+  #snap-logo {
+      max-width: 75px;
+      padding-right: 5px;
+      margin-top: 20px;
+  }
+  
+  .carousel-container {
+    position: relative;
+    width: 574px; 
+    height: 400px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 75px;
+    margin-top: 75px;
+  }
+  
+  .carousel-wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .pokemon-img {
+    width: 100%;
+    height: 400px; 
+    object-fit: cover;
+  }
+  
+  .prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .prev-btn { left: 10px; }
+  .next-btn { right: 10px; }
+  
+  .prev-btn:hover, .next-btn:hover {
+    background-color: black;
+  }
+  
+  #second-pokemon {
+    max-height: 190px;
+    padding-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  #gengar-hero {
+    max-height: 350px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  #pokeball {
+    padding-top: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  #form-container h2 {
+    margin-bottom: 30px;
+    margin-left: 0px;
+    color: navy;
+  }
+    .m-col-span-1 {grid-column: span 1 / span 1;}
+    .m-col-span-2 {grid-column: span 2 / span 2;}
+    .m-col-span-3 {grid-column: span 3 / span 3;}
+    .m-col-span-4 {grid-column: span 4 / span 4;}
+    .m-col-span-5 {grid-column: span 5 / span 5;}
+    .m-col-span-6 {grid-column: span 6 / span 6;}
+    .m-col-span-7 {grid-column: span 7 / span 7;}
+    .m-col-span-8 {grid-column: span 8 / span 8;}
+    .m-col-span-9 {grid-column: span 9 / span 9;}
+    .m-col-span-10 {grid-column: span 10 / span 10;}
+    .m-col-span-11 {grid-column: span 11 / span 11;}
+    .m-col-span-12 {grid-column: span 12 / span 12;}
+  
+    .m-col-start-1	{grid-column-start: 1;}
+    .m-col-start-2	{grid-column-start: 2;}
+    .m-col-start-3	{grid-column-start: 3;}
+    .m-col-start-4	{grid-column-start: 4;}
+    .m-col-start-5	{grid-column-start: 5;}
+    .m-col-start-6	{grid-column-start: 6;}
+    .m-col-start-7	{grid-column-start: 7;}
+    .m-col-start-8	{grid-column-start: 8;}
+    .m-col-start-9	{grid-column-start: 9;}
+    .m-col-start-10	{grid-column-start: 10;}
+    .m-col-start-11	{grid-column-start: 11;}
+    .m-col-start-12	{grid-column-start: 12;}
+    .m-col-start-13	{grid-column-start: 13;}
+    
+    
+    .m-col-end-1	{grid-column-end: 1;}
+    .m-col-end-2	{grid-column-end: 2;}
+    .m-col-end-3	{grid-column-end: 3;}
+    .m-col-end-4	{grid-column-end: 4;}
+    .m-col-end-5	{grid-column-end: 5;}
+    .m-col-end-6	{grid-column-end: 6;}
+    .m-col-end-7	{grid-column-end: 7;}
+    .m-col-end-8	{grid-column-end: 8;}
+    .m-col-end-9	{grid-column-end: 9;}
+    .m-col-end-10	{grid-column-end: 10;}
+    .m-col-end-11	{grid-column-end: 11;}
+    .m-col-end-12	{grid-column-end: 12;}
+    .m-col-end-13	{grid-column-end: 13;}
+  }
+  
+  /* 4. ---Desktop Library Grid Styles--- */
+  
+  @media screen and (min-width: 1200px) {
+    .grid-con {
+      max-width: 1919px;
+      grid-column-gap: 30px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    #hero-buy-now {
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      padding: 40px;
+    }
+  
+    #collection, #trade, #contact {
+      text-align: center;
+      margin-top: 75px;
+      margin-bottom: 25px;
+      font-size: 25px;
+    }
+  
+    #second-pokemon {
+      max-height: 290px;
+      padding-left: 50px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  
+    #gengar-hero {
+      max-height: 350px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  
+    #pokeball {
+      padding-top: 60px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  
+    #snap-logo {
+      max-width: 200px;
+      max-height: 100px;
+      padding-right: 5px;
+      margin-top: 35px;
+  }
+  
+  .carousel-container {
+    position: relative;
+    width: 574px; 
+    height: 400px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 75px;
+    margin-top: 75px;
+  }
+  
+  .carousel-wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .pokemon-img {
+    width: 100%;
+    height: 400px; 
+    object-fit: cover;
+  }
+  
+  .prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .prev-btn { left: 10px; }
+  .next-btn { right: 10px; }
+  
+  .prev-btn:hover, .next-btn:hover {
+    background-color: black;
+  }
+  
+  
+  
+    .l-col-span-1 {grid-column: span 1 / span 1;}
+    .l-col-span-2 {grid-column: span 2 / span 2;}
+    .l-col-span-3 {grid-column: span 3 / span 3;}
+    .l-col-span-4 {grid-column: span 4 / span 4;}
+    .l-col-span-5 {grid-column: span 5 / span 5;}
+    .l-col-span-6 {grid-column: span 6 / span 6;}
+    .l-col-span-7 {grid-column: span 7 / span 7;}
+    .l-col-span-8 {grid-column: span 8 / span 8;}
+    .l-col-span-9 {grid-column: span 9 / span 9;}
+    .l-col-span-10 {grid-column: span 10 / span 10;}
+    .l-col-span-11 {grid-column: span 11 / span 11;}
+    .l-col-span-12 {grid-column: span 12 / span 12;}
+  
+    .l-col-start-1	{grid-column-start: 1;}
+    .l-col-start-2	{grid-column-start: 2;}
+    .l-col-start-3	{grid-column-start: 3;}
+    .l-col-start-4	{grid-column-start: 4;}
+    .l-col-start-5	{grid-column-start: 5;}
+    .l-col-start-6	{grid-column-start: 6;}
+    .l-col-start-7	{grid-column-start: 7;}
+    .l-col-start-8	{grid-column-start: 8;}
+    .l-col-start-9	{grid-column-start: 9;}
+    .l-col-start-10	{grid-column-start: 10;}
+    .l-col-start-11	{grid-column-start: 11;}
+    .l-col-start-12	{grid-column-start: 12;}
+    .l-col-start-13	{grid-column-start: 13;}
+    
+    
+    .l-col-end-1	{grid-column-end: 1;}
+    .l-col-end-2	{grid-column-end: 2;}
+    .l-col-end-3	{grid-column-end: 3;}
+    .l-col-end-4	{grid-column-end: 4;}
+    .l-col-end-5	{grid-column-end: 5;}
+    .l-col-end-6	{grid-column-end: 6;}
+    .l-col-end-7	{grid-column-end: 7;}
+    .l-col-end-8	{grid-column-end: 8;}
+    .l-col-end-9	{grid-column-end: 9;}
+    .l-col-end-10	{grid-column-end: 10;}
+    .l-col-end-11	{grid-column-end: 11;}
+    .l-col-end-12	{grid-column-end: 12;}
+    .l-col-end-13	{grid-column-end: 13;}
+  
+  }
+  
+  /* 5. ---X-Large Desktop Library Grid Styles--- */
+  
+  @media screen and (min-width: 1920px) {
+  
+  }
