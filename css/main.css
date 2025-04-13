@@ -108,7 +108,10 @@ body {
     max-height: 1250px;
 }
   
-
+#featured-flavours {
+   background-color: black;
+   padding-top: 10px;
+}
 
 
 
