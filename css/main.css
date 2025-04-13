@@ -113,10 +113,55 @@ body {
    padding-top: 10px;
 }
 
+#flavour-img {
+   max-height: 500px;
+}
 
+#burple-flavours {
+   background-color: black;
+   gap: 0px;
+   row-gap: 10px;
+}
+ 
+#flavour-box1 {
+   background-color: blueviolet;
+   border: 1.5px solid black;
+   border-radius: 10px;
+   max-width: 165px;
+   max-height: 165px;
+   padding: 0px;
+   margin-left: 45px;
+}
 
+#flavour-box2 {
+   background-color: orange;
+   border: 1.5px solid black;
+   border-radius: 10px;
+   max-width: 165px;
+   max-height: 165px;
+   padding: 0px;
 
+}
 
+#flavour-box3 {
+   background-color: blue;
+   border: 1.5px solid black;
+   border-radius: 10px;
+   max-width: 165px;
+   max-height: 165px;
+   padding: 0px;
+   margin-left: 45px;
+}
+
+#flavour-box4 {
+   background-color: red;
+   border: 1.5px solid black;
+   border-radius: 10px;
+   max-width: 165px;
+   max-height: 165px;
+   padding: 0px;
+ 
+}
 
 
  #footer-hero {
@@ -234,4 +279,52 @@ body {
  label {
     color: navy;
  }
+
+ .carousel-container {
+   position: relative;
+   width: 550px;
+   margin: 20px auto;
+   background-color: black;
+ }
  
+ .carousel-wrapper {
+   overflow: hidden;
+   width: 450px;
+   height: 400px;
+ }
+ 
+ .carousel-track {
+   display: flex;
+   transition: transform 0.5s ease-in-out;
+ }
+ 
+ .pokemon-img {
+   width: 550px;
+   height: 400px;
+   object-fit: cover;
+   flex-shrink: 0;
+ }
+ 
+ .prev-btn, .next-btn {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   background-color: black;
+   color: white;
+   border: solid;
+   border-color: rgb(153, 0, 255);
+   border-radius: 10px;
+   padding: 12px;
+   cursor: pointer;
+   font-size: 24px;
+   z-index: 10;
+   margin-left: 47px;
+ }
+ 
+ .prev-btn { left: 10px; }
+ .next-btn { right: 5px; }
+ 
+ 
+ .prev-btn:hover, .next-btn:hover {
+   background-color: rgb(153, 0, 255);
+ }
