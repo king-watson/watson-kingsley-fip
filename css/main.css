@@ -60,17 +60,7 @@ body {
     margin-left: 35px;
  }
 
- #hero-buy-now2 {
-    color: white;
-    background-color: black;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    text-align: center;
-    padding-right: 25px;
-    padding-left: 25px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
- }
+ 
  
  #hero {
     background-color: black;
@@ -237,14 +227,6 @@ body {
 
  
 
- #click-to-see-more {
-   color: white;
-   margin-bottom: 25px;
-   margin-top: 20px;
-   margin-left: 15px;
-   font-family: 'Montserrat', sans-serif;
-   font-size: 12px;
- }
 
 
 
@@ -283,13 +265,7 @@ body {
 }
 
 
-#nutrition-facts {
-   background-color: black;
-   row-gap: 5px;
-   padding-left: 25px;
-   padding-right: 25px;
-   padding-bottom: 20px;
-}
+
 
 #facts {
    border: 1px solid white;
