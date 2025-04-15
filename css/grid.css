@@ -102,6 +102,18 @@ html {
         display: none;
     }
 
+    #hero-buy-now2 {
+      color: white;
+      background-color: black;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      text-align: center;
+      padding-right: 25px;
+      padding-left: 25px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+   }
+
     .carousel-container {
       position: relative;
       width: 550px;
@@ -109,6 +121,16 @@ html {
       background-color: black;
     }
     
+    #click-to-see-more {
+      color: white;
+      margin-bottom: 25px;
+      margin-top: 20px;
+      margin-left: 15px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+    }
+   
+
     .carousel-wrapper {
       overflow: hidden;
       width: 450px;
@@ -289,6 +311,14 @@ html {
       font-size: 30px;
     }
 
+    #nutrition-facts {
+      background-color: black;
+      row-gap: 5px;
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-bottom: 20px;
+   }
+
     #orange-text {
       color: orange;
       text-align: center;
@@ -410,8 +440,14 @@ html {
       max-height: 400px;
       padding-left: 35px;
     }
+
+    #hero-desktop-text {
+      display: none;
+    }
   
-    
+    #hero-buy-now10 {
+      display: none;
+    }
 
     #burple-footer-logo2 {
       display: none;
@@ -420,6 +456,17 @@ html {
    #burple-footer-logo1 {
     display: none;
    }
+
+
+   #new-product1 {
+    display: none;
+  }
+
+
+   #new-product {
+    background-color: black;
+}
+
   }
   
   /* 3. ---Tablet Library Grid Styles--- */
@@ -437,12 +484,30 @@ html {
   display: none;
 }
 
+#new-product {
+  background-color: black;
+}
+
+#new-product1 {
+  display: none;
+}
+
 #new-text {
   text-align: center;
   color: blueviolet;
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 75px;
 }
+
+#click-to-see-more {
+  color: white;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  margin-left: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
 
 #new-text5 {
   color: white;
@@ -537,6 +602,14 @@ html {
     #text-hero {
       display: none;
     }
+
+    #nutrition-facts {
+      background-color: black;
+      row-gap: 5px;
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-bottom: 20px;
+   }
 
     #hero-buy-now {
       margin-left: 0px;
@@ -699,6 +772,9 @@ html {
    font-family: 'Montserrat', sans-serif;
 }
 
+#hero-buy-now10 {
+  display: none;
+}
 
    #flavour-box3 {
       background-color: black;
@@ -927,6 +1003,10 @@ html {
  .next-btn1 {
    right: 350px;
  }
+
+ #hero-desktop-text {
+  display: none;
+}
   
   #form-container h2 {
     margin-bottom: 30px;
@@ -994,17 +1074,45 @@ html {
       display: none;
     }
 
+    #new-product5 {
+      padding-top: 0px;
+    }
+
+    #burple-map-t {
+      display: none;
+    }
+
+    #burple-map-d {
+      margin-left: 245px;
+}
+
+    #hero-buy-now13 {
+    color: white;
+    }
+
+    #nutrition-facts {
+      background-color: black;
+      row-gap: 5px;
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-bottom: 0px;
+   }
+
     #hero-text1 {
       display: block;
     }
 
-    #hero-desktop-text {
-      margin-top: 70px;
-    }
-
     #hero-buy-now2 {
-      display: none;
-    }
+      color: white;
+      background-color: black;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      text-align: center;
+      padding-right: 25px;
+      padding-left: 25px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+   }
 
     #product4 {
       border: 1.5px solid red;
@@ -1016,6 +1124,31 @@ html {
       border: 1.5px solid blueviolet;
       border-radius: 20px;
       margin-left: 15px;
+    }
+
+    .form-container {
+      width: 100%;
+      padding: 20px;
+      background-color: black;
+      margin-left: 0px;
+    }
+    
+    .form-container h2 {
+      margin-bottom: 10px;
+      color: blueviolet;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 40px;
+      text-align: center;
+      padding-top: 25px;
+      margin-left: 425px;
+    }
+    
+    .form-container p {
+      margin-bottom: 30px;
+      font-size: 15px;
+       color: white;
+       text-align: center;
+       font-family: 'Montserrat', sans-serif;
     }
    
     #product2 {
@@ -1037,7 +1170,40 @@ html {
       margin-top: 20px;
       padding: 40px;
     }
+
+    #new-product1 {
+      display: block;
+    }
+
+    #white-arrow {
+      margin-left: 585px;
+    }
+
+    #flavour-box2 {
+      margin-left: 20px;
+    }
+
+    #flavour-box3 {
+      margin-left: 30px;
+    }
+
+    #flavour-box4 {
+      margin-left: 45px;
+    }
+
+    #white-arrow1 {
+      padding-left: 35px;
+    }
   
+    #click-to-see-more {
+      color: white;
+      margin-bottom: 25px;
+      margin-top: 30px;
+      margin-left: 15px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+    }
+   
     #collection, #trade, #contact {
       text-align: center;
       margin-top: 100px;
@@ -1046,16 +1212,40 @@ html {
       margin-right: 60px;
     }
 
+    #hero-buy-now10 {
+      color: white;
+      background-color: black;
+      border: 1.5px solid rgb(153, 0, 255);
+      border-radius: 10px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      font-family: 'Special Gothic Expanded One', sans-serif;
+      font-size: 28px;
+      margin-left: 140px;
+      display: block;
+      margin-top: 245px;
+      position: absolute;
+   }
+
+   #hero-buy-now3 {
+    display: none;
+   }
+
+    #hero-img {
+      padding-bottom: 50px;
+    }
+
     #collection {
       margin-left: 20px;
     }
 
     #burple-products {
-      background-color: black;
-      gap: 40px;
-      row-gap: 5px;
-      padding-top: 25px;
+ display: none;
     }
+
+    #new-product {
+      display: none;
+  }
 
     #trade {
       margin-left: 25px;
@@ -1070,17 +1260,78 @@ html {
       margin-left: 80px;
     }
 
-    #hero-desktop-text {
+    #hero-desktop-text1 {
+      display: block;
       color: white;
       background-color: black;
-      padding-top: 25px;
-      padding-bottom: 25px;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      margin-top: 200px;
+      margin-bottom: 40px;
+      padding: 20px;
+      border: 1.5px solid blueviolet;
+      border-radius: 20px;
+    }
+
+    #hero-desktop-text2 {
+      display: block;
+      color: white;
+      background-color: black;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      margin-top: 200px;
+      margin-bottom: 40px;
+      padding: 20px;
+      border: 1.5px solid blue;
+      border-radius: 20px;
+    }
+
+    #hero-desktop-text3 {
+      display: block;
+      color: white;
+      background-color: black;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      margin-top: 200px;
+      margin-bottom: 40px;
+      padding: 20px;
+      border: 1.5px solid orange;
+      border-radius: 20px;
+    }
+
+    #hero-desktop-text4 {
+      display: block;
+      color: white;
+      background-color: black;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      margin-top: 200px;
+      margin-bottom: 80px;
+      padding: 20px;
+      border: 1.5px solid red;
+      border-radius: 20px;
+    }
+
+    #hero-desktop-text10 {
+      display: block;
+      color: white;
+      background-color: black;
       text-align: center;
       padding-right: 25px;
-      padding-left: 25px;
+      padding-left: 50px;
       font-family: 'Montserrat', sans-serif;
-      font-size: 16px;
+      font-size: 18px;
+      padding-top: 50px;
     }
+
+    #burple-flavours {
+      margin-left: 65px;
+    }
+    
 
 
     #second-pokemon {
@@ -1108,15 +1359,37 @@ html {
       padding-right: 5px;
       margin-top: 35px;
   }
-  
+
+  #burple-cans-desktop {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 40px;
+  }
+
+  #blue-desktop {
+    margin-right: 20px;
+    margin-top: 40px;
+  }
+
+  #grape-desktop {
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+
+  #orange-desktop {
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+
+  #red-desktop {
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+
   .carousel-container {
-    position: relative;
-    width: 574px; 
-    height: 400px;
-    overflow: hidden;
-    margin: auto;
-    margin-bottom: 75px;
-    margin-top: 75px;
+    display: none;
   }
   
   .carousel-wrapper {
@@ -1153,8 +1426,73 @@ html {
   .prev-btn:hover, .next-btn:hover {
     background-color: black;
   }
+
+  .carousel-container1 {
+    position: relative;
+    width: 100%;
+    max-width: 1282px;
+    margin: auto;
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+  }
   
+  .carousel-wrapper1 {
+    overflow: hidden;
+    background-color: black;
+    margin-bottom: 75px;
+  }
   
+  .carousel-track1 {
+    display: flex;
+    transition: transform 0.4s ease-in-out;
+    background-color: black;
+  }
+
+  .prev-btn1, .next-btn1 {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   border: 1px solid blueviolet;
+   background: black;
+   color: white;
+   padding: 6px 8px;
+   font-size: 24px;
+   cursor: pointer;
+   z-index: 10;
+   transition: 0.3s;
+   margin-top: 335px;
+   border: none;
+ }
+ 
+ .prev-btn1:hover,
+ .next-btn1:hover {
+   background: blueviolet;
+ }
+ 
+ .prev-btn1 {
+   left: 575px;
+ }
+ 
+ .next-btn1 {
+   right: 575px;
+ }
+  
+ #hero-buy-now2 {
+  display: none;
+ }
+
+ #hero-buy-now8 {
+  color: white;
+  background-color: black;
+  padding-top: 75px;
+  padding-bottom: 25px;
+  text-align: center;
+  padding-right: 25px;
+  padding-left: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
   
     .l-col-span-1 {grid-column: span 1 / span 1;}
     .l-col-span-2 {grid-column: span 2 / span 2;}
