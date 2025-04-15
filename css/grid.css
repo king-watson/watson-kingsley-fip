@@ -98,6 +98,81 @@ html {
     .hidden {
         display: none;
     }
+
+    #copyright-burple {
+      text-align: center;
+      padding-bottom: 20px;
+      font-family:'Montserrat', sans-serif;
+      font-size: 13px;
+    }
+
+    #flavour-box1 {
+      background-color: black;
+      border: 1.5px solid blueviolet;
+      border-radius: 10px;
+      max-width: 165px;
+      max-height: 165px;
+      padding: 0px;
+      margin-left: 45px;
+   }
+   
+   #flavour-box2 {
+      background-color: black;
+      border: 1.5px solid orange;
+      border-radius: 10px;
+      max-width: 165px;
+      max-height: 165px;
+      padding: 0px;
+   
+   }
+   
+   #flavour-box3 {
+      background-color: black;
+      border: 1.5px solid blue;
+      border-radius: 10px;
+      max-width: 165px;
+      max-height: 165px;
+      padding: 0px;
+      margin-left: 45px;
+   }
+   
+   #flavour-box4 {
+      background-color: black;
+      border: 1.5px solid red;
+      border-radius: 10px;
+      max-width: 165px;
+      max-height: 165px;
+      padding: 0px;
+    
+   }
+
+    #footer-links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding-top: 45px;
+    }
+    
+
+
+    #burple-logo-tab {
+      display: none;
+    }
+
+    #collection {
+      display: none;
+    }
+
+    #trade {
+      display: none;
+    }
+
+    #contact {
+      display: none;
+    }
   
     #gengar-hero {
       display: none;
@@ -157,6 +232,10 @@ html {
     .prev-btn:hover, .next-btn:hover {
       background-color: black;
     }
+
+    #burple-footer-logo2 {
+      display: none;
+   }
   
   
   }
@@ -171,7 +250,49 @@ html {
       padding-left: 16px;
       padding-right: 16px;
     }
-  
+
+    #burple-logo {
+      display: none;
+    }
+
+    #burple-logo-tab {
+      padding-top: 15px;
+    }
+
+    #trade {
+      font-size: 25px;
+      padding-top: 25px;
+      
+    }
+
+    #contact {
+      font-size: 25px;
+      padding-top: 25px;
+      padding-right: 20px;
+      padding-left: 10px;
+    }
+
+    #collection {
+      font-size: 25px;
+      padding-top: 25px;
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+
+    #buy-box {
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+
+    #hero-text {
+      min-height: 300px;
+      width: auto;
+    }
+
+    #text-hero {
+      display: none;
+    }
+
     #hero-buy-now {
       margin-left: 0px;
       margin-right: 0px;
@@ -179,7 +300,120 @@ html {
       margin-top: 20px;
       padding: 30px;
     }
+
+    #white-arrow {
+      padding-left: 11px;
+    }
   
+    .carousel-container {
+      position: relative;
+      width: 1000px; 
+      height: 400px;
+      overflow: hidden;
+      margin: auto;
+      margin-bottom: 75px;
+      margin-top: 75px;
+      padding-left: 140px;
+    }
+    
+    .carousel-wrapper {
+      width: 100%;
+      overflow: hidden;
+    }
+    
+    .carousel-track {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .pokemon-img {
+      width: 100%;
+      height: 400px; 
+      object-fit: cover;
+    }
+    
+    .prev-btn, .next-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      font-size: 24px;
+    }
+    
+    .prev-btn { left: 10px; }
+    .next-btn { right: 10px; }
+
+    #flavour-box1 {
+      background-color: black;
+      border: 1.5px solid blueviolet;
+      border-radius: 10px;
+      max-width: 165px;
+      max-height: 165px;
+      padding: 0px;
+   }
+   
+   #flavour-box2 {
+      background-color: black;
+      border: 1.5px solid orange;
+      border-radius: 10px;
+      max-width: 165px;
+      max-height: 165px;
+      padding: 0px;
+   
+   }
+   
+   #flavour-box3 {
+      background-color: black;
+      border: 1.5px solid blue;
+      border-radius: 10px;
+      max-width: 165px;
+      max-height: 165px;
+      padding: 0px;
+   }
+   
+   #flavour-box4 {
+      background-color: black;
+      border: 1.5px solid red;
+      border-radius: 10px;
+      max-width: 165px;
+      max-height: 165px;
+      padding: 0px;
+    
+   }
+
+    #burple-footer-logo {
+      display: none;
+    }
+
+    #burple-footer-logo2 {
+      padding-top: 25px;
+    }
+
+
+    #footer-links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        padding-top: 75px;
+        font-size: 25px;
+      }
+    
+      #copyright-burple {
+        text-align: center;
+        padding-bottom: 30px;
+        font-family:'Montserrat', sans-serif;
+        font-size: 13px;
+        padding-top: 20px;
+      }
+
+
     #pokemon-logo {
       padding-top: 10px;
       padding-left: 10px;
@@ -243,50 +477,7 @@ html {
       margin-top: 20px;
   }
   
-  .carousel-container {
-    position: relative;
-    width: 574px; 
-    height: 400px;
-    overflow: hidden;
-    margin: auto;
-    margin-bottom: 75px;
-    margin-top: 75px;
-  }
   
-  .carousel-wrapper {
-    width: 100%;
-    overflow: hidden;
-  }
-  
-  .carousel-track {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .pokemon-img {
-    width: 100%;
-    height: 400px; 
-    object-fit: cover;
-  }
-  
-  .prev-btn, .next-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 24px;
-  }
-  
-  .prev-btn { left: 10px; }
-  .next-btn { right: 10px; }
-  
-  .prev-btn:hover, .next-btn:hover {
-    background-color: black;
-  }
   
   #second-pokemon {
     max-height: 190px;
