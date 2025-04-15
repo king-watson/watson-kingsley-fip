@@ -76,12 +76,7 @@ body {
     background-color: black;
  }
 
-#new-text {
-    text-align: center;
-    color: blueviolet;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 75px;
-}
+
 
 #new-text1 {
     text-align: center;
@@ -218,12 +213,7 @@ body {
    font-size: 13px;
  }
  
- #burple-products {
-   background-color: black;
-   gap: 10px;
-   row-gap: 10px;
-   padding-top: 25px;
- }
+
 
  #product1 {
    border: 1.5px solid blueviolet;
@@ -249,55 +239,11 @@ body {
    margin-right: 15px;
  }
 
- #grape-text {
-   color: blueviolet;
-   text-align: center;
-   margin-left: 15px;
-   font-family: 'Barlow Condensed', sans-serif;
-   font-size: 45px;
- }
 
- #orange-text {
-   color: orange;
-   text-align: center;
-   margin-right: 15px;
-   font-family: 'Barlow Condensed', sans-serif;
-   font-size: 45px;
- }
 
- #grape-text {
-   color: blueviolet;
-   text-align: center;
-   margin-left: 15px;
-   font-family: 'Barlow Condensed', sans-serif;
-   font-size: 30px;
- }
+ 
 
- #orange-text {
-   color: orange;
-   text-align: center;
-   margin-right: 15px;
-   font-family: 'Barlow Condensed', sans-serif;
-   font-size: 30px;
- }
-
- #blue-rasp-text {
-   color: blue;
-   text-align: center;
-   margin-left: 15px;
-   font-family: 'Barlow Condensed', sans-serif;
-   font-size: 30px;
-   margin-top: 25px;
- }
-
- #watermelon-text {
-   color: red;
-   text-align: center;
-   margin-right: 15px;
-   font-family: 'Barlow Condensed', sans-serif;
-   font-size: 30px;
-   margin-top: 25px;
- }
+ 
 
  #click-to-see-more {
    color: white;
@@ -308,12 +254,7 @@ body {
    font-size: 12px;
  }
 
- #white-arrow1 {
-    max-height: 35px;
-    margin-left: 87px;
-    margin-top: 10px;
-    margin-bottom: 10px;
- }
+
 
  #new-text2 {
     text-align: center;
@@ -415,13 +356,6 @@ body {
    padding-bottom: 5px;
 }
 
-#new-text5 {
-   color: white;
-   font-family: 'Barlow Condensed', sans-serif;
-   font-size: 20px;
-   margin-left: 40px;
-   margin-bottom: 20px;
-}
 
 #new-product5 {
    background-color: black;
