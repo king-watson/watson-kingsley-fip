@@ -27,6 +27,11 @@ html {
     max-width: 767px;
     margin: 0 auto;
   }
+
+
+  #hero-text1 {
+    display: none;
+  }
   
   #charizard {
     padding-left: 75px;
@@ -105,6 +110,69 @@ html {
       font-family:'Montserrat', sans-serif;
       font-size: 13px;
     }
+
+
+    #white-arrow1 {
+      max-height: 35px;
+      margin-left: 87px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+   }
+
+
+    #new-text5 {
+      color: white;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 20px;
+      margin-left: 40px;
+      margin-bottom: 20px;
+   }
+
+   #new-text {
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 75px;
+}
+
+
+    #burple-products {
+      background-color: black;
+      gap: 10px;
+      row-gap: 10px;
+      padding-top: 25px;
+    }
+
+    #grape-text {
+      color: blueviolet;
+      text-align: center;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 30px;
+    }
+
+    #orange-text {
+      color: orange;
+      text-align: center;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 30px;
+    }
+
+    #blue-rasp-text {
+      color: blue;
+      text-align: center;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 30px;
+      margin-top: 25px;
+    }
+
+    #watermelon-text {
+      color: red;
+      text-align: center;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 30px;
+      margin-top: 25px;
+    }
+   
 
     #flavour-box1 {
       background-color: black;
@@ -237,7 +305,9 @@ html {
       display: none;
    }
   
-  
+   #burple-footer-logo1 {
+    display: none;
+   }
   }
   
   /* 3. ---Tablet Library Grid Styles--- */
@@ -251,33 +321,98 @@ html {
       padding-right: 16px;
     }
 
+.hidden {
+  display: none;
+}
+
+#new-text {
+  text-align: center;
+  color: blueviolet;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 75px;
+}
+
+#new-text5 {
+  color: white;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+    #hero-text1 {
+      display: none;
+    }
+
+
     #burple-logo {
       display: none;
     }
 
     #burple-logo-tab {
       padding-top: 15px;
+      width: 150px;
     }
 
     #trade {
-      font-size: 25px;
-      padding-top: 25px;
-      
+      font-size: 20px;
+      padding-top: 20px;
+      padding-left: 50px;
     }
 
     #contact {
-      font-size: 25px;
-      padding-top: 25px;
+      font-size: 20px;
+      padding-top: 20px;
+      padding-right: 20px;
+      padding-left: 50px;
+    }
+
+    #collection {
+      font-size: 20px;
+      padding-top: 20px;
       padding-right: 20px;
       padding-left: 10px;
     }
 
-    #collection {
-      font-size: 25px;
+    #burple-products {
+      background-color: black;
+      gap: 40px;
+      row-gap: 5px;
       padding-top: 25px;
-      padding-right: 20px;
-      padding-left: 20px;
     }
+
+    #grape-text {
+      color: blueviolet;
+      text-align: center;
+      margin-left: 15px;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 50px;
+    }
+
+    #orange-text {
+      color: orange;
+      text-align: center;
+      margin-left: 15px;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 50px;
+    }
+
+    #blue-rasp-text {
+      color: blue;
+      text-align: center;
+      margin-left: 15px;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 50px;
+    }
+
+    #watermelon-text {
+      color: red;
+      text-align: center;
+      margin-left: 15px;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 50px;
+    }
+
 
     #buy-box {
       margin-top: 20px;
@@ -301,9 +436,12 @@ html {
       padding: 30px;
     }
 
-    #white-arrow {
-      padding-left: 11px;
-    }
+    #white-arrow1 {
+      max-height: 35px;
+      margin-left: 37px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+   }
   
     .carousel-container {
       position: relative;
@@ -315,6 +453,7 @@ html {
       margin-top: 75px;
       padding-left: 140px;
     }
+
     
     .carousel-wrapper {
       width: 100%;
@@ -497,6 +636,11 @@ html {
     margin-top: 30px;
     margin-bottom: 30px;
   }
+
+  #burple-footer-logo1 {
+      max-height: 150px;
+      padding-top: 15px;
+  }
   
   #form-container h2 {
     margin-bottom: 30px;
@@ -556,6 +700,40 @@ html {
       padding-right: 15px;
     }
   
+    #burple-logo {
+      display: none;
+    }
+
+    #burple-logo-tab {
+      display: none;
+    }
+
+    #hero-text1 {
+   min-width: 300px;
+  display: block;
+    }
+
+    #trade {
+      font-size: 25px;
+      padding-top: 25px;
+      
+    }
+
+    #contact {
+      font-size: 25px;
+      padding-top: 25px;
+      padding-right: 20px;
+    }
+
+    #hero-desktop-text {
+      margin-top: 70px;
+    }
+
+    #hero-buy-now2 {
+      display: none;
+    }
+
+
     #hero-buy-now {
       margin-left: 0px;
       margin-right: 0px;
@@ -566,11 +744,43 @@ html {
   
     #collection, #trade, #contact {
       text-align: center;
-      margin-top: 75px;
+      margin-top: 100px;
       margin-bottom: 25px;
-      font-size: 25px;
+      font-size: 20px;
+      margin-right: 60px;
+    }
+
+    #collection {
+      margin-left: 20px;
+    }
+
+
+    #trade {
+      margin-left: 65px;
     }
   
+    #contact {
+      margin-left: 110px;
+    }
+
+    #buy-box {
+      margin-top: 20px;
+      margin-left: 80px;
+    }
+
+    #hero-desktop-text {
+      color: white;
+      background-color: black;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      text-align: center;
+      padding-right: 25px;
+      padding-left: 25px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+    }
+
+
     #second-pokemon {
       max-height: 290px;
       padding-left: 50px;
