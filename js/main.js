@@ -26,7 +26,6 @@ prevButton.addEventListener('click', () => {
 
 window.addEventListener('resize', updateCarousel);
 
-
 // Promo Lightbox
   
 const promos = [
@@ -97,7 +96,7 @@ infoBox.addEventListener('click', (e) => {
   const mobileMenu = document.querySelector('#mobileMenu');
 
   navToggle.addEventListener('click', (e) => {
-    e.preventDefault(); // stop the page from jumping to top
+    e.preventDefault(); 
     mobileMenu.classList.toggle('hidden');
   });
 

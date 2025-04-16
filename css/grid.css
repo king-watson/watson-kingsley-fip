@@ -102,6 +102,20 @@ html {
         display: none;
     }
 
+    #burple-logo {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      max-height: 150px;
+      margin-left: 60px;
+    }
+
+    #burple-logo2 {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      max-height: 150px;
+      margin-left: 80px;
+    }
+
     #burple-cans-desktop {
       display: none;
     }
@@ -125,14 +139,25 @@ html {
      
      #social-media-logos {
       min-width: 500px;
-      padding-right: 25px;
+      padding-right: 30px;
      }
 
     #hero-buy-now8 {
       display: none;
     }
 
+    #hero-text {
+      margin-left: 60px;
+      margin-top: -60px;
+      margin-bottom: -50px;
+    }
    
+    #hero-text2 {
+      margin-left: 80px;
+      margin-top: -60px;
+      margin-bottom: -50px;
+    }
+
 
     .carousel-wrapper1 {
       overflow: hidden;
@@ -145,6 +170,11 @@ html {
       transition: transform 0.4s ease-in-out;
       background-color: black;
     }
+
+    #social-media-logos2 {
+      min-width: 600px;
+      padding-right: 30px;
+     }
   
     .prev-btn1, .next-btn1 {
      position: absolute;
@@ -301,7 +331,7 @@ html {
    }
 
    #hero-img1 {
-    margin-left: 55px;
+    margin-left: 70px;
     padding-top: 20px;
    }
 
@@ -528,7 +558,7 @@ html {
 
     #white-arrow1 {
       max-height: 35px;
-      margin-left: 90px;
+      margin-left: 120px;
       margin-top: 10px;
       margin-bottom: 10px;
    }
@@ -579,7 +609,7 @@ html {
  cursor: pointer;
  z-index: 10;
  transition: 0.3s;
- margin-top: 130px;
+ margin-top: 165px;
  border: none;
 }
 
@@ -589,18 +619,18 @@ html {
 }
 
 .prev-btn1 {
- left: 200px;
+ left: 250px;
 }
 
 .next-btn1 {
-  right: 200px;
+  right: 250px;
 }
 
     #new-text5 {
       color: white;
       font-family: 'Barlow Condensed', sans-serif;
       font-size: 20px;
-      margin-left: 120px;
+      margin-left: 110px;
       margin-bottom: 20px;
    }
 
@@ -842,7 +872,7 @@ html {
 }
 
 #hero-img1 {
-  margin-left: 80px;
+  margin-left: 120px;
   max-width: 900px;
   padding-top: 20px;
  }
@@ -881,6 +911,10 @@ html {
       padding-top: 20px;
       padding-right: 20px;
       padding-left: 50px;
+    }
+
+    #burple-logo2 {
+      display: none;
     }
 
     #collection {
@@ -1706,6 +1740,10 @@ html {
       margin-right: 15px;
     }
     
+    #social-media-logos2 {
+      min-width: 900px;
+      margin-left: 400px;
+     }
    
     #product3 {
       border: 1.5px solid blue;
@@ -1715,7 +1753,7 @@ html {
 
     #social-media-logos1 {
       max-width: 900px;
-      padding-right: 300px;
+      padding-left: 300px;
     }
 
     #social-media-logos {
@@ -2113,6 +2151,11 @@ html {
   
  #hero-buy-now2 {
   display: none;
+ }
+
+ #footer-links {
+  margin-left: 400px;
+  margin-top: 35px;
  }
 
  #hero-buy-now8 {
