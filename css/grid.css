@@ -102,7 +102,76 @@ html {
         display: none;
     }
 
+    #burple-cans-desktop {
+      display: none;
+    }
+
+    #hero-desktop-text10 {
+      display: none;
+     }
+
+     #hero-buy-now3 {
+      color: white;
+    background-color: black;
+    border: 1.5px solid rgb(153, 0, 255);
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Special Gothic Expanded One', sans-serif;
+    font-size: 28px;
+    margin-right: 35px;
+    margin-left: 35px;
+     }
+     
+
+    #hero-buy-now8 {
+      display: none;
+    }
+
+    .carousel-wrapper1 {
+      overflow: hidden;
+      background-color: black;
+      margin-bottom: 75px;
+    }
+    
+    .carousel-track1 {
+      display: flex;
+      transition: transform 0.4s ease-in-out;
+      background-color: black;
+    }
+  
+    .prev-btn1, .next-btn1 {
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     border: 1px solid blueviolet;
+     background: black;
+     color: white;
+     padding: 6px 8px;
+     font-size: 24px;
+     cursor: pointer;
+     z-index: 10;
+     transition: 0.3s;
+     margin-top: 1400px;
+     border: 1.5px solid blueviolet;
+     border-radius: 5px;
+   }
+   
+   .prev-btn1:hover,
+   .next-btn1:hover {
+     background: blueviolet;
+   }
+   
+   .prev-btn1 {
+     left: 190px;
+   }
+   
+   .next-btn1 {
+     right: 190px;
+   }
+
     #hero-buy-now2 {
+      display: block;
       color: white;
       background-color: black;
       padding-top: 25px;
@@ -113,6 +182,39 @@ html {
       font-family: 'Montserrat', sans-serif;
       font-size: 16px;
    }
+
+   #grape-desktop {
+    display: none;
+   }
+
+   #orange-desktop {
+    display: none;
+   }
+
+   #blue-desktop {
+    display: none;
+   }
+
+   #red-desktop {
+    display: none;
+   }
+
+   #hero-desktop-text1 {
+    display: none;
+   }
+
+   #hero-desktop-text2 {
+    display: none;
+   }
+
+   #hero-desktop-text3 {
+    display: none;
+   }
+
+   #hero-desktop-text4 {
+    display: none;
+   }
+
 
     .carousel-container {
       position: relative;
@@ -172,6 +274,10 @@ html {
     .prev-btn:hover, .next-btn:hover {
       background-color: rgb(153, 0, 255);
     }
+
+    #burple-map-d {
+      display: none;
+     }
 
     #hero-img-c {
       background-color: black;
@@ -368,6 +474,19 @@ html {
       max-height: 165px;
       padding: 0px;
       margin-left: 45px;
+   }
+  
+   #hero-buy-now3 {
+    color: white;
+    background-color: black;
+    border: 1.5px solid rgb(153, 0, 255);
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Special Gothic Expanded One', sans-serif;
+    font-size: 28px;
+    margin-right: 35px;
+    margin-left: 35px;
    }
    
    #flavour-box2 {
@@ -619,6 +738,22 @@ html {
       padding: 30px;
     }
 
+    #hero-desktop-text1 {
+      display: none;
+     }
+  
+     #hero-desktop-text2 {
+      display: none;
+     }
+  
+     #hero-desktop-text3 {
+      display: none;
+     }
+  
+     #hero-desktop-text4 {
+      display: none;
+     }
+
     #white-arrow1 {
       max-height: 35px;
       margin-left: 37px;
@@ -637,7 +772,7 @@ html {
   width: 550px;
   margin: 20px auto;
   background-color: black;
-  margin-left: 150px;
+  margin-left: 165px;
 }
 
 .carousel-wrapper {
@@ -709,6 +844,22 @@ html {
       padding: 0px;
    }
    
+   #grape-desktop {
+    display: none;
+   }
+
+   #orange-desktop {
+    display: none;
+   }
+
+   #blue-desktop {
+    display: none;
+   }
+
+   #red-desktop {
+    display: none;
+   }
+   
    #flavour-box2 {
       background-color: black;
       border: 1.5px solid orange;
@@ -752,6 +903,10 @@ html {
   padding: 20px;
   background-color: black;
   margin-left: 0px;
+}
+
+#burple-cans-desktop {
+  display: none;
 }
 
 .form-container h2 {
@@ -912,7 +1067,11 @@ html {
     background-color: black;
     padding-top: 25px;
     padding-bottom: 50px;
-    margin-left: 95px;
+    margin-left: 100px;
+ }
+
+ #burple-map-d {
+  display: none;
  }
 
   #burple-footer-logo1 {
@@ -975,6 +1134,18 @@ html {
     background-color: black;
   }
 
+  #hero-buy-now2 {
+    color: white;
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+ }
+
   .prev-btn1, .next-btn1 {
    position: absolute;
    top: 50%;
@@ -999,6 +1170,10 @@ html {
  .prev-btn1 {
    left: 350px;
  }
+
+ #hero-desktop-text10 {
+  display: none;
+ }
  
  .next-btn1 {
    right: 350px;
@@ -1006,6 +1181,24 @@ html {
 
  #hero-desktop-text {
   display: none;
+}
+
+#hero-buy-now8 {
+  display: none;
+}
+
+#hero-buy-now3 {
+  display: block;
+  color: white;
+  background-color: black;
+  border: 1.5px solid rgb(153, 0, 255);
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Special Gothic Expanded One', sans-serif;
+  font-size: 28px;
+  margin-right: 35px;
+  margin-left: 35px;
 }
   
   #form-container h2 {
@@ -1098,9 +1291,6 @@ html {
       padding-bottom: 0px;
    }
 
-    #hero-text1 {
-      display: block;
-    }
 
     #hero-buy-now2 {
       color: white;
@@ -1225,6 +1415,10 @@ html {
       display: block;
       margin-top: 245px;
       position: absolute;
+   }
+
+   #hero-buy-now1 {
+    display: block;
    }
 
    #hero-buy-now3 {
@@ -1364,7 +1558,9 @@ html {
     margin-left: 25px;
     margin-right: 25px;
     padding-top: 40px;
+    width: 100px;
   }
+
 
   #blue-desktop {
     margin-right: 20px;
@@ -1393,48 +1589,35 @@ html {
   }
   
   .carousel-wrapper {
-    width: 100%;
-    overflow: hidden;
+    display: none;
   }
   
   .carousel-track {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
+    display: none;
   }
   
   .pokemon-img {
-    width: 100%;
-    height: 400px; 
-    object-fit: cover;
+    display: none;
   }
   
   .prev-btn, .next-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 24px;
+    display: none;
   }
   
   .prev-btn { left: 10px; }
   .next-btn { right: 10px; }
   
   .prev-btn:hover, .next-btn:hover {
-    background-color: black;
+    display: none;
   }
 
+  #hero-text1 {
+    display: block;
+  }
+
+
   .carousel-container1 {
-    position: relative;
-    width: 100%;
-    max-width: 1282px;
-    margin: auto;
-    overflow: hidden;
-    background-color: black;
-    width: 100%;
+    display: none;
   }
   
   .carousel-wrapper1 {
