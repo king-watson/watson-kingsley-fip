@@ -47,3 +47,81 @@ Kingsley Watson
 
 ## License
 MIT License - see included license file.
+
+## Paper Plan 
+
+1. Overview
+
+Brand Name: Burple
+
+Team Members: N/A
+
+Project Type: Three-page brand/product website
+
+Goal: Create a responsive, interactive website with a contact form using HTML, CSS, and JavaScript, following modern web standards.
+
+2. Target Audience 
+
+Using a futurastic appealling website I hope to grab the eyes of kids. The Burple Brand was established as a kids drink so I want to further their legacy with the rebrand.
+
+3. Page Structure
+
+index.html includes 
+    Hero Section
+    Welcome Part
+    Featured Flavours
+    Commercial
+    Secret Promo
+
+product.html includes
+    Overview of the product
+    Nutritional Facts
+    Sneak peek at a new Burple product
+    Socials
+
+contact.html includes 
+    Contact Us Section Overview
+    Contact Box 
+    Headquarter Location
+
+4. Mock Up Wireframes - Before and After
+
+
+5. Colours
+
+Primary Colours - Purple, Gold, White and Black
+
+Seondary - Red, Orange and Blue
+
+6. Functionality & Features
+
+Hamburger Menu
+
+Contact Form
+
+Google Map
+
+Hover Effects
+
+Animations 
+
+7. Technical Tools
+
+HTML / CSS / JavaScript
+
+GitHub
+
+8. Step Plan
+
+1	Plan, gather assets, build wireframes
+2	Set up HTML structure and basic layout
+3	Style pages, add interactivity, build contact form
+4	Test, optimize, fix bugs, polish for submission
+
+10. Assets
+
+Burple Logos, Cinema 4D Renders, Royalty Free Images, Icons and Style Guides
+
+11. Success Plan
+
+Take your time and have fun with it
