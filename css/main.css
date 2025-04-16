@@ -10,12 +10,7 @@ body {
     background-color: black;
  }
  
- #burple-logo {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    max-height: 150px;
-    margin-left: 60px;
-  }
+ 
 
   #buy-box {
   
@@ -36,11 +31,7 @@ body {
     background-color: rgb(153, 0, 255);
   }
   
-  #hero-text {
-    margin-left: 60px;
-    margin-top: -60px;
-    margin-bottom: -50px;
-  }
+ 
 
 
   #text-hero {
