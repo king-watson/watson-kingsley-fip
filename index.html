@@ -24,13 +24,22 @@
 <body>
     <h1 class="hide">Burple FIP</h1>
     <header class="grid-con" id="header-type">
-        <div class="col-start-1 col-end-1" id="hamburger">
-            <a href="#" class="nav-toggle">
-            <span class="nav-toggle-bar"></span>
-            <span class="nav-toggle-bar"></span>
-            <span class="nav-toggle-bar"></span>
-            </a>
-            </div>
+      <div class="col-start-1 col-end-1" id="hamburger">
+        <a href="#" class="nav-toggle" id="navToggle">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </a>
+      </div>
+      
+      <div class="mobile-menu hidden" id="mobileMenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      
         <img src="images/no-bubble23.png" class="col-start-2 col-end-3 m-col-start-1 m-col-end-4 l-col-span-4" id="burple-logo">
         <img src="images/burple-logo-tab.png" class="m-col-span-3 l-col-span-3" id="burple-logo-tab">
         <img src="images/desktop-logo.png" class="l-col-span-5" id="hero-text1">
@@ -101,18 +110,40 @@
           <div class="grid-con" id="burple-flavours">
             <div class="box col-span-2 m-col-span-3 l-col-span-3" id="flavour-box1">
               <img src="images/grape-logo.png" alt="Grape">
+              <div class="hotspot" data-title="Grape Burple" data-description="Packed with antioxidants and a bold grape taste.">+</div>
             </div>
             <div class="box col-span-2 m-col-span-3 l-col-span-3" id="flavour-box2">
               <img src="images/burple-orange-logo.png" alt="Orange">
+              <div class="hotspot" data-title="Orange Burple" data-description="Citrusy and refreshing - great for energy.">+</div>
             </div>
             <div class="box col-span-2 m-col-span-3 l-col-span-3" id="flavour-box3">
               <img src="images/blue-rasp-logo.png" alt="Blue Raspberry">
+              <div class="hotspot" data-title="Blue Raspberry Burple" data-description="Tangy and bold, a hit of nostalgia.">+</div>
             </div>
             <div class="box col-span-2 m-col-span-3 l-col-span-3" id="flavour-box4">
               <img src="images/watermelon-logo.png" alt="Watermelon">
+              <div class="hotspot" data-title="Watermelon Burple" data-description="Sweet, juicy, and ultra hydrating.">+</div>
             </div>
-            <p class="col-span-3 m-col-span-4 l-col-span-4" id="click-to-see-more">Click icons to see more...</p>
+            <p class="col-span-3 m-col-span-4 l-col-span-4" id="click-to-see-more">Click + icons to see more...</p>
           </div>
+          
+         
+          <div id="flavour-info-box" class="info-lightbox">
+            <div class="info-content">
+              <span class="info-close">&times;</span>
+              <h2 id="flavour-title">Title Here</h2>
+              <p id="flavour-description">Description goes here...</p>
+            </div>
+          </div>
+          
+          <div class="hotspot-lightbox" id="hotspot-lightbox">
+            <div class="hotspot-content">
+              <span id="hotspot-close">&times;</span>
+              <h3 id="hotspot-title"></h3>
+              <p id="hotspot-description"></p>
+            </div>
+          </div>
+          
 
           <div class="grid-con" id="new-product1">
             <p class="l-col-start-1 l-col-end-7 " id="new-text">CHECK OUT</p>
@@ -135,8 +166,24 @@
             <div class="box col-span-full m-col-span-full l-col-span-full" id="hero-buy-now1">
                 Get Social
         </div>
-        <img src="images/social-media-icons.jpg" class="col-span-full" id="social-media-logos" alt="Social Media Icons">
+        <a href="https://youtu.be/RKdhtEXQf2k?si=Ax5zLUnvYKDT2Ouw" target="_blank">
+          <img src="images/social-media-icons.jpg" class="col-span-full" id="social-media-logos" alt="Social Media Icons">
+        </a>
         </div>
+
+        <div class="promo-section">
+          <button id="promo-btn">Secret Promos Since You Scrolled So Far!</button>
+        </div>
+        
+        <div id="promo-lightbox" class="lightbox">
+          <div class="lightbox-content">
+            <button id="close-btn" class="close-btn">X</button>
+            <h2 id="promo-title"></h2>
+            <p id="promo-description"></p>
+          </div>
+        </div>
+        
+        
 
         <footer class="grid-con" id="footer-burple">
           <img src="images/grape-logo.png" class="col-span-1 m-col-span-4" id="burple-footer-logo">
@@ -147,13 +194,7 @@
               <li><a href="contact.html">Contact Us</a></li>
             </ul>
             <p class="col-span-full" id="copyright-burple">&copy; 2025 Burple. All rights reserved.</p>
-          </footer>
-          
-
-
-
-            
-      
-        
-          
-      <script src="js/main.js"></script>
+          </footer>       
+<script src="js/main.js"></script>
+</body>
+</html>
