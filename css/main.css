@@ -157,9 +157,7 @@ body {
    margin-right: 30px;
 }
 
-#social-media-logos {
-   padding-right: 5px;
-}
+
 
 #footer-burple {
    background-color: blueviolet;
@@ -172,15 +170,7 @@ body {
 
 
  
- .footer-links {
-   list-style: none;
-   padding: 0;
-   margin: 0;
-   display: flex;
-   justify-content: center;
-   gap: 30px;
-   padding-top: 45px;
- }
+
  
  #footer-links li a {
    text-decoration: none;
@@ -352,6 +342,10 @@ body {
     padding: 0;
     margin: 0;
  }
+
+ .hidden {
+   display: none;
+ }
  
  .nav-toggle-bar {
     width: 35px;
@@ -365,6 +359,11 @@ body {
     padding-top: 45px;
     padding-left: 30px;
  }
+
+ #hamburger1 {
+   padding-top: 45px;
+   padding-left: 30px;
+}
  
  #pokemon-collection {
     background-color: white;
