@@ -158,7 +158,7 @@ html {
      cursor: pointer;
      z-index: 10;
      transition: 0.3s;
-     margin-top: 1400px;
+     margin-top: 1720px;
      border: 1.5px solid blueviolet;
      border-radius: 5px;
    }
@@ -167,6 +167,12 @@ html {
    .next-btn1:hover {
      background: blueviolet;
    }
+
+   #new-flavour-img2 {
+    min-height: 200px;
+    padding-left: 60px;
+    padding-right: 80px;
+ }
    
    .prev-btn1 {
      left: 190px;
@@ -295,7 +301,7 @@ html {
    }
 
    #hero-img1 {
-    margin-left: 50px;
+    margin-left: 55px;
     padding-top: 20px;
    }
 
@@ -384,6 +390,7 @@ html {
 
 .lightbox-content {
   background-color: white;
+  border: 2px solid blueviolet;
   padding: 20px;
   max-width: 500px;
   margin: auto;
@@ -464,6 +471,7 @@ html {
 .info-content {
   background: #fff;
   color: black;
+  border: 2px solid blueviolet;
   padding: 2rem;
   border-radius: 10px;
   max-width: 400px;
@@ -520,7 +528,7 @@ html {
 
     #white-arrow1 {
       max-height: 35px;
-      margin-left: 125px;
+      margin-left: 90px;
       margin-top: 10px;
       margin-bottom: 10px;
    }
@@ -529,7 +537,7 @@ html {
     background-color: black;
     max-height: 300px;
     max-width: 430px;
-    padding-left: 20px;
+    padding-left: 50px;
     padding-bottom: 20px;
  }
 
@@ -537,11 +545,62 @@ html {
   display: none;
  }
 
+ .carousel-container1 {
+  position: relative;
+  width: 100%;
+  max-width: 1282px;
+  margin: auto;
+  overflow: hidden;
+  background-color: black;
+  width: 100%;
+}
+
+.carousel-wrapper1 {
+  overflow: hidden;
+  background-color: black;
+  margin-bottom: 75px;
+}
+
+.carousel-track1 {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+  background-color: black;
+}
+
+.prev-btn1, .next-btn1 {
+ position: absolute;
+ top: 50%;
+ transform: translateY(-50%);
+ border: 1px solid blueviolet;
+ background: black;
+ color: white;
+ padding: 6px 8px;
+ font-size: 24px;
+ cursor: pointer;
+ z-index: 10;
+ transition: 0.3s;
+ margin-top: 130px;
+ border: none;
+}
+
+.prev-btn1:hover,
+.next-btn1:hover {
+ background: blueviolet;
+}
+
+.prev-btn1 {
+ left: 200px;
+}
+
+.next-btn1 {
+  right: 200px;
+}
+
     #new-text5 {
       color: white;
       font-family: 'Barlow Condensed', sans-serif;
       font-size: 20px;
-      margin-left: 40px;
+      margin-left: 120px;
       margin-bottom: 20px;
    }
 
@@ -782,6 +841,11 @@ html {
   font-size: 12px;
 }
 
+#hero-img1 {
+  margin-left: 170px;
+  max-width: 900px;
+  padding-top: 20px;
+ }
 
 #new-text5 {
   color: white;
@@ -805,56 +869,7 @@ html {
       width: 150px;
     }
 
-    .lightbox {
-      display: none;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.7);
-      justify-content: center;
-      align-items: center;
-      z-index: 999;
-    }
     
-    .lightbox-content {
-      background-color: white;
-      padding: 40px;
-      max-width: 700px;
-      margin: auto;
-      border-radius: 10px;
-      text-align: center;
-      position: relative;
-      top: 25%;
-    }
-    
-    .close-btn {
-      background-color: #ff0000;
-      color: white;
-      border: none;
-      padding: 3px 5px;
-      cursor: pointer;
-      border-radius: 5px;
-      position: absolute;
-      top: 10px;
-      right: 10px;
-    }
-    
-    #promo-btn {
-      padding: 20px 200px;
-      background-color: blueviolet;
-      color: white;
-      border: none;
-      cursor: pointer;
-      font-size: 16px;
-      border-radius: 5px;
-      margin: 30px;
-      margin-left: 90px;
-      margin-bottom: 60px;
-    }
-
-
     #trade {
       font-size: 20px;
       padding-top: 20px;
@@ -881,6 +896,19 @@ html {
       row-gap: 5px;
       padding-top: 25px;
     }
+
+    #social-media-logos {
+      min-width: 600px;
+      padding-right: 25px;
+      padding-left: 220px;
+     }
+
+     #social-media-logos2 {
+      min-width: 600px;
+      padding-right: 110px;
+      padding-left: 0px;
+     }
+
 
     #grape-text {
       color: blueviolet;
@@ -943,6 +971,56 @@ html {
       padding: 30px;
     }
 
+    .lightbox {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+    }
+    
+    .lightbox-content {
+      background-color: white;
+      border: 2px solid blueviolet;
+      padding: 50px;
+      min-width: 700px;
+      margin: auto;
+      border-radius: 10px;
+      text-align: center;
+      position: relative;
+      top: 25%;
+    }
+    
+    .close-btn {
+      background-color: #ff0000;
+      color: white;
+      border: none;
+      padding: 3px 5px;
+      cursor: pointer;
+      border-radius: 5px;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+    
+    #promo-btn {
+      padding: 15px 200px;
+      background-color: blueviolet;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 5px;
+      margin: 30px;
+      margin-left: 70px;
+      margin-bottom: 60px;
+    }
+
     #hero-desktop-text1 {
       display: none;
      }
@@ -977,7 +1055,7 @@ html {
   width: 550px;
   margin: 20px auto;
   background-color: black;
-  margin-left: 165px;
+  margin-left: 195px;
 }
 
 .carousel-wrapper {
@@ -997,6 +1075,70 @@ html {
   object-fit: cover;
   flex-shrink: 0;
 }
+
+.hotspot {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 5;
+}
+
+/* Make sure flavour boxes are positioned */
+.box {
+  position: relative;
+}
+
+/* Lightbox style */
+.info-lightbox {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+}
+
+/* Lightbox inner content */
+.info-content {
+  background: #fff;
+  color: black;
+  border: 2px solid blueviolet;
+  padding: 4rem;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  position: relative;
+}
+
+/* Close button */
+.info-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 28px;
+  font-weight: bold;
+  color: red;
+  cursor: pointer;
+}
+
+
+
+
+/* Make the hotspot circle */
 
 .prev-btn, .next-btn {
   position: absolute;
@@ -1026,10 +1168,10 @@ html {
     #burple-map-t {
       background-color: black;
       max-height: 600px;
-      max-width: 700px;
+      max-width: 800px;
       padding-left: 20px;
       padding-bottom: 20px;
-      margin-left: 80px;
+      margin-left: 120px;
    }
 
    #burple-map {
@@ -1473,15 +1615,19 @@ html {
     }
 
     #new-product5 {
-      padding-top: 0px;
+      padding: 20px;
     }
+
+ 
+  
 
     #burple-map-t {
       display: none;
     }
 
     #burple-map-d {
-      margin-left: 245px;
+      margin-left: 275px;
+      display: block;
 }
 
     #hero-buy-now13 {
@@ -1509,54 +1655,7 @@ html {
       font-size: 16px;
    }
 
-   .lightbox {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    justify-content: center;
-    align-items: center;
-    z-index: 999;
-  }
-  
-  .lightbox-content {
-    background-color: white;
-    padding: 40px;
-    max-width: 700px;
-    margin: auto;
-    border-radius: 10px;
-    text-align: center;
-    position: relative;
-    top: 25%;
-  }
-  
-  .close-btn {
-    background-color: #ff0000;
-    color: white;
-    border: none;
-    padding: 3px 5px;
-    cursor: pointer;
-    border-radius: 5px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
-  
-  #promo-btn {
-    padding: 30px 350px;
-    background-color: blueviolet;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-    margin: 30px;
-    margin-left: 100px;
-    margin-bottom: 60px;
-  }
+   
 
     #product4 {
       border: 1.5px solid red;
@@ -1594,6 +1693,12 @@ html {
        text-align: center;
        font-family: 'Montserrat', sans-serif;
     }
+
+    #new-flavour-img2 {
+      max-height: 700px;
+      padding-left: 250px;
+      padding-right: 80px;
+   }
    
     #product2 {
       border: 1.5px solid orange;
@@ -1606,6 +1711,22 @@ html {
       border: 1.5px solid blue;
       border-radius: 20px;
       margin-left: 15px;
+    }
+
+    #social-media-logos1 {
+      max-width: 900px;
+      padding-right: 300px;
+    }
+
+    #social-media-logos {
+      max-width: 900px;
+      margin-left: 50px;
+    }
+
+    #hero-img1 {
+      max-width: 1200px;
+      padding-top: 20px;
+      padding-right: 500px;
     }
 
     #hero-buy-now {
@@ -1647,6 +1768,56 @@ html {
       margin-left: 15px;
       font-family: 'Montserrat', sans-serif;
       font-size: 15px;
+    }
+
+    .lightbox {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+    }
+    
+    .lightbox-content {
+      background-color: white;
+      border: 2px solid blueviolet;
+      padding: 20px;
+      max-width: 500px;
+      margin: auto;
+      border-radius: 10px;
+      text-align: center;
+      position: relative;
+      top: 25%;
+    }
+    
+    .close-btn {
+      background-color: #ff0000;
+      color: white;
+      border: none;
+      padding: 3px 5px;
+      cursor: pointer;
+      border-radius: 5px;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+    
+    #promo-btn {
+      padding: 15px 400px;
+      background-color: blueviolet;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 5px;
+      margin: 30px;
+      margin-left: 70px;
+      margin-bottom: 60px;
     }
    
     #collection, #trade, #contact {
@@ -1717,7 +1888,7 @@ html {
       font-family: 'Montserrat', sans-serif;
       font-size: 18px;
       margin-top: 200px;
-      margin-bottom: 40px;
+      margin-bottom: 200px;
       padding: 20px;
       border: 1.5px solid blueviolet;
       border-radius: 20px;
@@ -1731,7 +1902,7 @@ html {
       font-family: 'Montserrat', sans-serif;
       font-size: 18px;
       margin-top: 200px;
-      margin-bottom: 40px;
+      margin-bottom: 200px;
       padding: 20px;
       border: 1.5px solid blue;
       border-radius: 20px;
@@ -1745,7 +1916,7 @@ html {
       font-family: 'Montserrat', sans-serif;
       font-size: 18px;
       margin-top: 200px;
-      margin-bottom: 40px;
+      margin-bottom: 200px;
       padding: 20px;
       border: 1.5px solid orange;
       border-radius: 20px;
@@ -1759,7 +1930,7 @@ html {
       font-family: 'Montserrat', sans-serif;
       font-size: 18px;
       margin-top: 200px;
-      margin-bottom: 80px;
+      margin-bottom: 200px;
       padding: 20px;
       border: 1.5px solid red;
       border-radius: 20px;
@@ -1810,29 +1981,53 @@ html {
   }
 
   #burple-cans-desktop {
+    display: block;
     margin-left: 25px;
     margin-right: 25px;
     padding-top: 40px;
-    width: 100px;
   }
 
+  #burple-cans-desktop img {
+    max-width: 290px;
+  }
+
+  #blue-rasp-can {
+    max-width: 300px;
+  }
+
+  #grape-can {
+    max-width: 300px;
+  }
+
+  #orange-can {
+    max-width: 300px;
+  }
+
+  #watermelon-can {
+    max-width: 300px;
+  }
 
   #blue-desktop {
+    display: block;
     margin-right: 20px;
     margin-top: 40px;
   }
 
   #grape-desktop {
+    display: block;
     margin-left: 20px;
     margin-top: 40px;
+    
   }
 
   #orange-desktop {
+    display: block;
     margin-left: 20px;
     margin-top: 40px;
   }
 
   #red-desktop {
+    display: block;
     margin-right: 20px;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -1921,6 +2116,7 @@ html {
  }
 
  #hero-buy-now8 {
+  display: block;
   color: white;
   background-color: black;
   padding-top: 75px;
@@ -1929,7 +2125,14 @@ html {
   padding-right: 25px;
   padding-left: 25px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 25px;
+}
+
+#hero-img-c {
+  background-color: black;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  padding-right: 125px;
 }
   
     .l-col-span-1 {grid-column: span 1 / span 1;}

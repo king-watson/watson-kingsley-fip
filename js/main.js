@@ -74,6 +74,7 @@ const title = document.querySelector('#flavour-title');
 const description = document.querySelector('#flavour-description');
 const closeBtn = document.querySelector('.info-close');
 
+
 hotspots.forEach(hotspot => {
   hotspot.addEventListener('click', () => {
     title.textContent = hotspot.getAttribute('data-title');
@@ -91,7 +92,6 @@ infoBox.addEventListener('click', (e) => {
     infoBox.style.display = 'none';
   }
 });
-
 
   const navToggle = document.querySelector('#navToggle');
   const mobileMenu = document.querySelector('#mobileMenu');
