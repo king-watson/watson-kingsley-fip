@@ -84,16 +84,13 @@ contact.html includes
     Contact Box 
     Headquarter Location
 
-4. Mock Up Wireframes - Before and After
-
-
-5. Colours
+4. Colours
 
 Primary Colours - Purple, Gold, White and Black
 
 Seondary - Red, Orange and Blue
 
-6. Functionality & Features
+5. Functionality & Features
 
 Hamburger Menu
 
@@ -105,23 +102,23 @@ Hover Effects
 
 Animations 
 
-7. Technical Tools
+6. Technical Tools
 
 HTML / CSS / JavaScript
 
 GitHub
 
-8. Step Plan
+7. Step Plan
 
 1	Plan, gather assets, build wireframes
 2	Set up HTML structure and basic layout
 3	Style pages, add interactivity, build contact form
 4	Test, optimize, fix bugs, polish for submission
 
-10. Assets
+8. Assets
 
 Burple Logos, Cinema 4D Renders, Royalty Free Images, Icons and Style Guides
 
-11. Success Plan
+9. Success Plan
 
 Take your time and have fun with it
