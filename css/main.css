@@ -88,6 +88,10 @@ body {
 #new-flavour-img {
     max-height: 1250px;
 }
+
+#new-flavour-img2 {
+   min-height: 200px;
+}
   
 #featured-flavours {
    background-color: black;
